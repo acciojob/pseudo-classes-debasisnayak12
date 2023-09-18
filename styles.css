@@ -1,1 +1,32 @@
 /*  your css code here. If applicable */
+:root{
+	background-color: rgb(135,206,235);
+}
+
+.articles p:first-child{
+	background-color: black;
+	color: white;
+}
+
+.articles p:nth-child(2){
+	color: black;
+}
+
+.articles p:last-child{
+	color: red;
+}
+
+.unorder li {
+	background-color: grey;
+	width: 50%;
+	padding: 10px;
+}
+.unorder li:nth-child(odd) {
+	background-color: white;
+}
+.first-to-last{
+	font-size: 22px;
+}
+.unorder li:nth-child(3){
+	background-color: pink;
+}
